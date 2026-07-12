@@ -22,7 +22,7 @@ export default async function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50 font-sans selection:bg-blue-100 selection:text-blue-900">
+    <main className="min-h-screen bg-[#070b19] font-sans selection:bg-emerald-950 selection:text-emerald-300">
       <FlashcardApp domainsData={domains || []} flashcardsData={flashcards || []} />
     </main>
   );
